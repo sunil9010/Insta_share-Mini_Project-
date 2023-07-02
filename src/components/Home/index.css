@@ -1,0 +1,8 @@
+/* .home-container {
+  margin: 0px auto;
+} */
+@media screen and (max-width: 568px) {
+  .home-container {
+    max-width: 360px;
+  }
+}

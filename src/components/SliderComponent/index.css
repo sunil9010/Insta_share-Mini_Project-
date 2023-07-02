@@ -1,0 +1,144 @@
+.logo-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  flex-shrink: 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  font-size: 18px;
+}
+.name-story {
+  color: #262626;
+  font-size: 14px;
+  font-family: Roboto;
+}
+@media screen and (max-width: 768px) {
+  .logo-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    flex-shrink: 0;
+  }
+  .name-story {
+    font-size: 14px;
+  }
+}
+.slick-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error-msg {
+  color: #262626;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 24px;
+}
+.error-button {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 8px;
+  background: #4094ef;
+  padding: 8px 24px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+.error-img {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.error-msg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 5px;
+  padding: 2px;
+  border: 2px solid #e20337;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-container {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-container {
+    /* max-width: 1100px; */
+    width: 70vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #989898;
+}
+
+.user-story-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #262626;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slick-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slider-container {
+  padding-left: 0px;
+  margin: 0px auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 980px;
+}
+@media screen and (max-width: 768px) {
+  .slider-container {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}
+.story_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
